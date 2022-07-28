@@ -1,6 +1,6 @@
 # @criipto/verify-passport-jwt
 
-A Passport strategy for authenticating with a Criipto Verify JWT.
+A Passport strategy for authenticating with a Criipto Verify JWT. Based on [jose](https://www.npmjs.com/package/jose).
 
 ## Install
 
