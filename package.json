@@ -1,0 +1,39 @@
+{
+  "name": "@criipto/verify-passport-jwt",
+  "version": "1.0.0",
+  "description": "A Passport strategy for authenticating with a Criipto Verify JWT.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/criipto/criipto-verify-passport-jwt.git"
+  },
+  "keywords": [
+    "criipto",
+    "verify",
+    "bankid",
+    "nemid",
+    "mitid",
+    "passport",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/criipto/criipto-verify-passport-jwt/issues"
+  },
+  "homepage": "https://github.com/criipto/criipto-verify-passport-jwt#readme",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "jose": "^4.8.3",
+    "passport-strategy": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/passport-strategy": "^0.2.35",
+    "typescript": "^4.7.4"
+  }
+}
