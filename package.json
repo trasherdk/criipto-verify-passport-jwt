@@ -1,6 +1,6 @@
 {
   "name": "@criipto/verify-passport-jwt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Passport strategy for authenticating with a Criipto Verify JWT.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
